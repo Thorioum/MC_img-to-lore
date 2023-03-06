@@ -9,10 +9,10 @@ def rgb_of_pixel(img_path, x, y):
     return a
 print("type the item you want to put this on:")
 item = input()
-print("type the full path to the image you would like to use (Ex: C:\picture\example.jpg, __NO PNGS__):")
+print("type the full path to the image you would like to use (Ex: C:\picture\example.jpg):")
 path = input()
 img = Image.open(path, 'r')
-print("please specify the size of the image you want to scale it to (keeping it below 2000 total pixels is a good guide)\n RES 106x47 will fill an entire 1920x1080 gui scale 2 minecraft screen:")
+print("please specify the size of the image you want to scale it to (keeping it below 2000 total pixels is a good guide for keeping it in a command block)\n RES 106x47 will fill an entire 1920x1080 gui scale 2 minecraft screen:")
 print("type width: ")
 w = input()
 print("type height: ")
